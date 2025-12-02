@@ -1,2 +1,81 @@
-# coming-soon
-صفحة انتظرونا
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>انتظرونا قريبًا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: #252422; /* لون خلفية وصال */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: 'Changa', sans-serif;
+      color: #ccc5b9;
+      overflow: hidden;
+    }
+
+    .box {
+      animation: fadeIn 2.0s ease forwards;
+      opacity: 0;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #eb5e28; /* البرتقاني */
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 22px;
+      color: #ccc5b9;
+      margin-bottom: 40px;
+    }
+
+  img {
+      width: 110px; /* صغّرتها هنا */
+      opacity: 0.9;
+  }
+
+    .btn {
+      background: #eb5e28;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #252422;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #d44e1f;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>انتظرونا قريبًا</h1>
+    <p>أفضل شركة ماركتينج في مصر… 😎🔥</p>
+
+    <!-- زر يرجّعك للموقع الأساسي -->
+    <!-- <a href="index.html" class="btn">العودة إلى الموقع</a> -->
+    <img class="fade" style="animation-delay: 0.8s;" src="Logo.png.png" alt="Wesal Logo" />
+  </div>
+
+</body>
+</html>
